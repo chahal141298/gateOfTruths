@@ -1,0 +1,20 @@
+PODS:
+  - AnimatedCollectionViewLayout (1.1.0)
+  - IQKeyboardManagerSwift (6.5.6)
+
+DEPENDENCIES:
+  - AnimatedCollectionViewLayout
+  - IQKeyboardManagerSwift
+
+SPEC REPOS:
+  trunk:
+    - AnimatedCollectionViewLayout
+    - IQKeyboardManagerSwift
+
+SPEC CHECKSUMS:
+  AnimatedCollectionViewLayout: 0c1a38c4be115c525c887be183fc91ef65737c5d
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+
+PODFILE CHECKSUM: e50db7b8d0e75360368f7ce1d1c057806f3e47d9
+
+COCOAPODS: 1.8.4

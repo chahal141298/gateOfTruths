@@ -1,0 +1,6 @@
+framework module Pods_GateOfTruthsUITests {
+  umbrella header "Pods-GateOfTruthsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181D1C0527AF9ED800CCAAEE /* OTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181D1C0427AF9ED800CCAAEE /* OTPVC.swift */; };
+		181D1C0A27AFA7BE00CCAAEE /* FileViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181D1C0927AFA7BE00CCAAEE /* FileViewVC.swift */; };
+		181D1C0F27AFA9BC00CCAAEE /* MapViewwVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181D1C0E27AFA9BC00CCAAEE /* MapViewwVC.swift */; };
+		181D1C1427AFB16C00CCAAEE /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181D1C1327AFB16C00CCAAEE /* ProfileVC.swift */; };
+		181D1C1927AFE2EE00CCAAEE /* TCPrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181D1C1827AFE2EE00CCAAEE /* TCPrivacyVC.swift */; };
+		18704DAF27AC53BC0013E06E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704DAE27AC53BC0013E06E /* AppDelegate.swift */; };
+		18704DB127AC53BC0013E06E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704DB027AC53BC0013E06E /* SceneDelegate.swift */; };
+		18704DB327AC53BC0013E06E /* LandingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704DB227AC53BC0013E06E /* LandingVC.swift */; };
+		18704DB627AC53BC0013E06E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18704DB427AC53BC0013E06E /* Main.storyboard */; };
+		18704DB827AC53D10013E06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18704DB727AC53D10013E06E /* Assets.xcassets */; };
+		18704DBB27AC53D10013E06E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18704DB927AC53D10013E06E /* LaunchScreen.storyboard */; };
+		18704DC627AC53D20013E06E /* GateOfTruthsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704DC527AC53D20013E06E /* GateOfTruthsTests.swift */; };
+		18704DD127AC53D20013E06E /* GateOfTruthsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704DD027AC53D20013E06E /* GateOfTruthsUITests.swift */; };
+		18704DF427AC75960013E06E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704DF327AC75960013E06E /* LoginVC.swift */; };
+		18704DF927AC764B0013E06E /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704DF827AC764B0013E06E /* SignUpVC.swift */; };
+		18704DFE27AC770E0013E06E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704DFD27AC770E0013E06E /* HomeVC.swift */; };
+		18704E0327AC777D0013E06E /* listViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704E0227AC777D0013E06E /* listViewVC.swift */; };
+		18704E0F27AC7C2A0013E06E /* ListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704E0E27AC7C2A0013E06E /* ListTableCell.swift */; };
+		18704E1727AC7D1E0013E06E /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704E1627AC7D1E0013E06E /* TabBarVC.swift */; };
+		18704E2527AECF380013E06E /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704E2427AECF380013E06E /* ChatVC.swift */; };
+		18704E2A27AED24B0013E06E /* ChatSendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704E2927AED24B0013E06E /* ChatSendCell.swift */; };
+		18704E2F27AED2720013E06E /* ChatReceiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704E2E27AED2720013E06E /* ChatReceiveCell.swift */; };
+		18704E3727AEEED40013E06E /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704E3627AEEED40013E06E /* MessageVC.swift */; };
+		18704E3C27AEEF670013E06E /* MessageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704E3B27AEEF670013E06E /* MessageTableCell.swift */; };
+		18704E4127AEF5230013E06E /* CreateTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704E4027AEF5230013E06E /* CreateTaskVC.swift */; };
+		18704E4627AEFB930013E06E /* AddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704E4527AEFB930013E06E /* AddressVC.swift */; };
+		18704E4B27AF009E0013E06E /* ViewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704E4A27AF009E0013E06E /* ViewTask.swift */; };
+		18704E5027AF04620013E06E /* TaskTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704E4F27AF04620013E06E /* TaskTable.swift */; };
+		18704E5D27AF06BB0013E06E /* FileCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18704E5C27AF06BB0013E06E /* FileCollection.swift */; };
+		4678AFE6D549EC13D961CC0F /* Pods_GateOfTruths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E999514AE054CCEB20666CB2 /* Pods_GateOfTruths.framework */; };
+		4D931C8248CD21019EC484C2 /* Pods_GateOfTruthsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4DA883F3E64F3D83CC1724 /* Pods_GateOfTruthsTests.framework */; };
+		71B6866D6DDF88E32298BDA0 /* Pods_GateOfTruthsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411E3EEFE9F64A10E5F6C496 /* Pods_GateOfTruthsUITests.framework */; };
+		A8366E0127C3DF7B00312B53 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18704DC727AC53D20013E06E /* Info.plist */; };
+		A8366E0527C3DF8400312B53 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18704DD227AC53D20013E06E /* Info.plist */; };
+		A8366E2D27C5279300312B53 /* Redressed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8366E2227C41CD900312B53 /* Redressed-Regular.ttf */; };
+		A83A229B27D916DB002AC846 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83A229A27D916DB002AC846 /* GoogleService-Info.plist */; };
+		A84B8FDE27CA5367003CDF35 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84B8FDD27CA5367003CDF35 /* EditProfileVC.swift */; };
+		A8CE18CB27B57F7000ACE6BA /* EmailLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE18CA27B57F7000ACE6BA /* EmailLoginVC.swift */; };
+		A8CE18D427B58B4400ACE6BA /* TabBarModVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE18D327B58B4400ACE6BA /* TabBarModVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18704DC227AC53D20013E06E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18704DA327AC53BB0013E06E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18704DAA27AC53BB0013E06E;
+			remoteInfo = GateOfTruths;
+		};
+		18704DCD27AC53D20013E06E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18704DA327AC53BB0013E06E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18704DAA27AC53BB0013E06E;
+			remoteInfo = GateOfTruths;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B14D5899F812272598C172C /* Pods-GateOfTruthsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GateOfTruthsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GateOfTruthsUITests/Pods-GateOfTruthsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		181D1C0427AF9ED800CCAAEE /* OTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVC.swift; sourceTree = "<group>"; };
+		181D1C0927AFA7BE00CCAAEE /* FileViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewVC.swift; sourceTree = "<group>"; };
+		181D1C0E27AFA9BC00CCAAEE /* MapViewwVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewwVC.swift; sourceTree = "<group>"; };
+		181D1C1327AFB16C00CCAAEE /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		181D1C1827AFE2EE00CCAAEE /* TCPrivacyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPrivacyVC.swift; sourceTree = "<group>"; };
+		18704DAB27AC53BC0013E06E /* GateOfTruths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GateOfTruths.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18704DAE27AC53BC0013E06E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18704DB027AC53BC0013E06E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18704DB227AC53BC0013E06E /* LandingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingVC.swift; sourceTree = "<group>"; };
+		18704DB527AC53BC0013E06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18704DB727AC53D10013E06E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18704DBA27AC53D10013E06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18704DBC27AC53D10013E06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18704DC127AC53D20013E06E /* GateOfTruthsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GateOfTruthsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18704DC527AC53D20013E06E /* GateOfTruthsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GateOfTruthsTests.swift; sourceTree = "<group>"; };
+		18704DC727AC53D20013E06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18704DCC27AC53D20013E06E /* GateOfTruthsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GateOfTruthsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18704DD027AC53D20013E06E /* GateOfTruthsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GateOfTruthsUITests.swift; sourceTree = "<group>"; };
+		18704DD227AC53D20013E06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18704DF327AC75960013E06E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		18704DF827AC764B0013E06E /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		18704DFD27AC770E0013E06E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		18704E0227AC777D0013E06E /* listViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listViewVC.swift; sourceTree = "<group>"; };
+		18704E0E27AC7C2A0013E06E /* ListTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableCell.swift; sourceTree = "<group>"; };
+		18704E1627AC7D1E0013E06E /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		18704E2427AECF380013E06E /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		18704E2927AED24B0013E06E /* ChatSendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSendCell.swift; sourceTree = "<group>"; };
+		18704E2E27AED2720013E06E /* ChatReceiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatReceiveCell.swift; sourceTree = "<group>"; };
+		18704E3627AEEED40013E06E /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		18704E3B27AEEF670013E06E /* MessageTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableCell.swift; sourceTree = "<group>"; };
+		18704E4027AEF5230013E06E /* CreateTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskVC.swift; sourceTree = "<group>"; };
+		18704E4527AEFB930013E06E /* AddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressVC.swift; sourceTree = "<group>"; };
+		18704E4A27AF009E0013E06E /* ViewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTask.swift; sourceTree = "<group>"; };
+		18704E4F27AF04620013E06E /* TaskTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTable.swift; sourceTree = "<group>"; };
+		18704E5C27AF06BB0013E06E /* FileCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCollection.swift; sourceTree = "<group>"; };
+		2C4DA883F3E64F3D83CC1724 /* Pods_GateOfTruthsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GateOfTruthsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BC34730597B8E34FAD3EAC /* Pods-GateOfTruthsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GateOfTruthsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GateOfTruthsTests/Pods-GateOfTruthsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		411E3EEFE9F64A10E5F6C496 /* Pods_GateOfTruthsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GateOfTruthsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5895BDEFE7BE616C25B046CF /* Pods-GateOfTruthsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GateOfTruthsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GateOfTruthsUITests/Pods-GateOfTruthsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79F4B3BB2A047E75DC984058 /* Pods-GateOfTruths.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GateOfTruths.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GateOfTruths/Pods-GateOfTruths.debug.xcconfig"; sourceTree = "<group>"; };
+		80F0A3ABC9FA1FFA2EE8B301 /* Pods-GateOfTruths.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GateOfTruths.release.xcconfig"; path = "Pods/Target Support Files/Pods-GateOfTruths/Pods-GateOfTruths.release.xcconfig"; sourceTree = "<group>"; };
+		A828B0BD27E8D5DF007CAFC6 /* GateOfTruths.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GateOfTruths.entitlements; sourceTree = "<group>"; };
+		A8366E1627C3E33100312B53 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.txt; path = "../../../../Downloads/Redressed_Font_Family_(Fontmirror)/README.txt"; sourceTree = "<group>"; };
+		A8366E1727C3E33100312B53 /* Redressed Regular 400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Redressed Regular 400.ttf"; path = "../../../../Downloads/Redressed_Font_Family_(Fontmirror)/Redressed Regular 400.ttf"; sourceTree = "<group>"; };
+		A8366E2227C41CD900312B53 /* Redressed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Redressed-Regular.ttf"; sourceTree = "<group>"; };
+		A83A229A27D916DB002AC846 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A84B8FDD27CA5367003CDF35 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		A8CE18CA27B57F7000ACE6BA /* EmailLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginVC.swift; sourceTree = "<group>"; };
+		A8CE18D327B58B4400ACE6BA /* TabBarModVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModVC.swift; sourceTree = "<group>"; };
+		DA14BB9587FC785D33EA98C5 /* Pods-GateOfTruthsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GateOfTruthsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GateOfTruthsTests/Pods-GateOfTruthsTests.release.xcconfig"; sourceTree = "<group>"; };
+		E999514AE054CCEB20666CB2 /* Pods_GateOfTruths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GateOfTruths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18704DA827AC53BB0013E06E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4678AFE6D549EC13D961CC0F /* Pods_GateOfTruths.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18704DBE27AC53D20013E06E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D931C8248CD21019EC484C2 /* Pods_GateOfTruthsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18704DC927AC53D20013E06E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B6866D6DDF88E32298BDA0 /* Pods_GateOfTruthsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183C414427B1842800794832 /* AuthControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18704DB227AC53BC0013E06E /* LandingVC.swift */,
+				18704DF327AC75960013E06E /* LoginVC.swift */,
+				18704DF827AC764B0013E06E /* SignUpVC.swift */,
+				181D1C0427AF9ED800CCAAEE /* OTPVC.swift */,
+				A8CE18CA27B57F7000ACE6BA /* EmailLoginVC.swift */,
+			);
+			path = AuthControllers;
+			sourceTree = "<group>";
+		};
+		183C414B27B1846400794832 /* TabController */ = {
+			isa = PBXGroup;
+			children = (
+				181D1C1327AFB16C00CCAAEE /* ProfileVC.swift */,
+				18704DFD27AC770E0013E06E /* HomeVC.swift */,
+				18704E0227AC777D0013E06E /* listViewVC.swift */,
+				18704E1627AC7D1E0013E06E /* TabBarVC.swift */,
+				A8CE18D327B58B4400ACE6BA /* TabBarModVC.swift */,
+			);
+			path = TabController;
+			sourceTree = "<group>";
+		};
+		183C414D27B1854400794832 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				18704DB027AC53BC0013E06E /* SceneDelegate.swift */,
+				18704DAE27AC53BC0013E06E /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		183C414E27B1855C00794832 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18704E0D27AC7BE60013E06E /* CellClass */,
+				18704DB427AC53BC0013E06E /* Main.storyboard */,
+				18704DB927AC53D10013E06E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18704DA227AC53BB0013E06E = {
+			isa = PBXGroup;
+			children = (
+				18704DAD27AC53BC0013E06E /* GateOfTruths */,
+				18704DC427AC53D20013E06E /* GateOfTruthsTests */,
+				18704DCF27AC53D20013E06E /* GateOfTruthsUITests */,
+				18704DAC27AC53BC0013E06E /* Products */,
+				2BD409F30EBED72926EDE819 /* Pods */,
+				74C13C922ADF196BD5CE1F09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18704DAC27AC53BC0013E06E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18704DAB27AC53BC0013E06E /* GateOfTruths.app */,
+				18704DC127AC53D20013E06E /* GateOfTruthsTests.xctest */,
+				18704DCC27AC53D20013E06E /* GateOfTruthsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18704DAD27AC53BC0013E06E /* GateOfTruths */ = {
+			isa = PBXGroup;
+			children = (
+				A828B0BD27E8D5DF007CAFC6 /* GateOfTruths.entitlements */,
+				A860C8F627BE9E5B00C7CDD9 /* font */,
+				183C414E27B1855C00794832 /* View */,
+				183C414D27B1854400794832 /* Delegates */,
+				18704DE127AC74350013E06E /* Controllers */,
+				18704DB727AC53D10013E06E /* Assets.xcassets */,
+				18704DBC27AC53D10013E06E /* Info.plist */,
+				A83A229A27D916DB002AC846 /* GoogleService-Info.plist */,
+			);
+			path = GateOfTruths;
+			sourceTree = "<group>";
+		};
+		18704DC427AC53D20013E06E /* GateOfTruthsTests */ = {
+			isa = PBXGroup;
+			children = (
+				18704DC527AC53D20013E06E /* GateOfTruthsTests.swift */,
+				18704DC727AC53D20013E06E /* Info.plist */,
+			);
+			path = GateOfTruthsTests;
+			sourceTree = "<group>";
+		};
+		18704DCF27AC53D20013E06E /* GateOfTruthsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18704DD027AC53D20013E06E /* GateOfTruthsUITests.swift */,
+				18704DD227AC53D20013E06E /* Info.plist */,
+			);
+			path = GateOfTruthsUITests;
+			sourceTree = "<group>";
+		};
+		18704DE127AC74350013E06E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A84B8FDC27CA533A003CDF35 /* user */,
+				A8CE18CF27B57F8500ACE6BA /* other */,
+				183C414B27B1846400794832 /* TabController */,
+				183C414427B1842800794832 /* AuthControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18704E0D27AC7BE60013E06E /* CellClass */ = {
+			isa = PBXGroup;
+			children = (
+				18704E0E27AC7C2A0013E06E /* ListTableCell.swift */,
+				18704E2927AED24B0013E06E /* ChatSendCell.swift */,
+				18704E2E27AED2720013E06E /* ChatReceiveCell.swift */,
+				18704E3B27AEEF670013E06E /* MessageTableCell.swift */,
+				18704E4F27AF04620013E06E /* TaskTable.swift */,
+				18704E5C27AF06BB0013E06E /* FileCollection.swift */,
+			);
+			path = CellClass;
+			sourceTree = "<group>";
+		};
+		2BD409F30EBED72926EDE819 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79F4B3BB2A047E75DC984058 /* Pods-GateOfTruths.debug.xcconfig */,
+				80F0A3ABC9FA1FFA2EE8B301 /* Pods-GateOfTruths.release.xcconfig */,
+				38BC34730597B8E34FAD3EAC /* Pods-GateOfTruthsTests.debug.xcconfig */,
+				DA14BB9587FC785D33EA98C5 /* Pods-GateOfTruthsTests.release.xcconfig */,
+				5895BDEFE7BE616C25B046CF /* Pods-GateOfTruthsUITests.debug.xcconfig */,
+				0B14D5899F812272598C172C /* Pods-GateOfTruthsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74C13C922ADF196BD5CE1F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E999514AE054CCEB20666CB2 /* Pods_GateOfTruths.framework */,
+				2C4DA883F3E64F3D83CC1724 /* Pods_GateOfTruthsTests.framework */,
+				411E3EEFE9F64A10E5F6C496 /* Pods_GateOfTruthsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A84B8FDC27CA533A003CDF35 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				18704E2427AECF380013E06E /* ChatVC.swift */,
+				18704E4527AEFB930013E06E /* AddressVC.swift */,
+				A84B8FDD27CA5367003CDF35 /* EditProfileVC.swift */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		A860C8F627BE9E5B00C7CDD9 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				A8366E1627C3E33100312B53 /* README.txt */,
+				A8366E2227C41CD900312B53 /* Redressed-Regular.ttf */,
+				A8366E1727C3E33100312B53 /* Redressed Regular 400.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		A8CE18CF27B57F8500ACE6BA /* other */ = {
+			isa = PBXGroup;
+			children = (
+				18704E3627AEEED40013E06E /* MessageVC.swift */,
+				18704E4027AEF5230013E06E /* CreateTaskVC.swift */,
+				18704E4A27AF009E0013E06E /* ViewTask.swift */,
+				181D1C0927AFA7BE00CCAAEE /* FileViewVC.swift */,
+				181D1C0E27AFA9BC00CCAAEE /* MapViewwVC.swift */,
+				181D1C1827AFE2EE00CCAAEE /* TCPrivacyVC.swift */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18704DAA27AC53BB0013E06E /* GateOfTruths */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18704DD527AC53D20013E06E /* Build configuration list for PBXNativeTarget "GateOfTruths" */;
+			buildPhases = (
+				5D2791212FC4417066A08E3D /* [CP] Check Pods Manifest.lock */,
+				18704DA727AC53BB0013E06E /* Sources */,
+				18704DA827AC53BB0013E06E /* Frameworks */,
+				18704DA927AC53BB0013E06E /* Resources */,
+				CCE54988E0002883133CB9F9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GateOfTruths;
+			packageProductDependencies = (
+			);
+			productName = GateOfTruths;
+			productReference = 18704DAB27AC53BC0013E06E /* GateOfTruths.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18704DC027AC53D20013E06E /* GateOfTruthsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18704DD827AC53D20013E06E /* Build configuration list for PBXNativeTarget "GateOfTruthsTests" */;
+			buildPhases = (
+				6F41AD477859F010CF0B1687 /* [CP] Check Pods Manifest.lock */,
+				18704DBD27AC53D20013E06E /* Sources */,
+				18704DBE27AC53D20013E06E /* Frameworks */,
+				18704DBF27AC53D20013E06E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18704DC327AC53D20013E06E /* PBXTargetDependency */,
+			);
+			name = GateOfTruthsTests;
+			productName = GateOfTruthsTests;
+			productReference = 18704DC127AC53D20013E06E /* GateOfTruthsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18704DCB27AC53D20013E06E /* GateOfTruthsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18704DDB27AC53D20013E06E /* Build configuration list for PBXNativeTarget "GateOfTruthsUITests" */;
+			buildPhases = (
+				39B13E93DDF2BEA480EA00B1 /* [CP] Check Pods Manifest.lock */,
+				18704DC827AC53D20013E06E /* Sources */,
+				18704DC927AC53D20013E06E /* Frameworks */,
+				18704DCA27AC53D20013E06E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18704DCE27AC53D20013E06E /* PBXTargetDependency */,
+			);
+			name = GateOfTruthsUITests;
+			productName = GateOfTruthsUITests;
+			productReference = 18704DCC27AC53D20013E06E /* GateOfTruthsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18704DA327AC53BB0013E06E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					18704DAA27AC53BB0013E06E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					18704DC027AC53D20013E06E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 18704DAA27AC53BB0013E06E;
+					};
+					18704DCB27AC53D20013E06E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 18704DAA27AC53BB0013E06E;
+					};
+				};
+			};
+			buildConfigurationList = 18704DA627AC53BB0013E06E /* Build configuration list for PBXProject "GateOfTruths" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18704DA227AC53BB0013E06E;
+			packageReferences = (
+			);
+			productRefGroup = 18704DAC27AC53BC0013E06E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18704DAA27AC53BB0013E06E /* GateOfTruths */,
+				18704DC027AC53D20013E06E /* GateOfTruthsTests */,
+				18704DCB27AC53D20013E06E /* GateOfTruthsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18704DA927AC53BB0013E06E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8366E2D27C5279300312B53 /* Redressed-Regular.ttf in Resources */,
+				18704DBB27AC53D10013E06E /* LaunchScreen.storyboard in Resources */,
+				A83A229B27D916DB002AC846 /* GoogleService-Info.plist in Resources */,
+				18704DB827AC53D10013E06E /* Assets.xcassets in Resources */,
+				18704DB627AC53BC0013E06E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18704DBF27AC53D20013E06E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8366E0127C3DF7B00312B53 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18704DCA27AC53D20013E06E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8366E0527C3DF8400312B53 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39B13E93DDF2BEA480EA00B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GateOfTruthsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D2791212FC4417066A08E3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GateOfTruths-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F41AD477859F010CF0B1687 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GateOfTruthsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCE54988E0002883133CB9F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GateOfTruths/Pods-GateOfTruths-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GateOfTruths/Pods-GateOfTruths-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GateOfTruths/Pods-GateOfTruths-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18704DA727AC53BB0013E06E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18704DB327AC53BC0013E06E /* LandingVC.swift in Sources */,
+				181D1C1427AFB16C00CCAAEE /* ProfileVC.swift in Sources */,
+				18704DAF27AC53BC0013E06E /* AppDelegate.swift in Sources */,
+				18704E0F27AC7C2A0013E06E /* ListTableCell.swift in Sources */,
+				18704E5027AF04620013E06E /* TaskTable.swift in Sources */,
+				18704E2A27AED24B0013E06E /* ChatSendCell.swift in Sources */,
+				18704E3727AEEED40013E06E /* MessageVC.swift in Sources */,
+				18704DF427AC75960013E06E /* LoginVC.swift in Sources */,
+				18704E2527AECF380013E06E /* ChatVC.swift in Sources */,
+				181D1C1927AFE2EE00CCAAEE /* TCPrivacyVC.swift in Sources */,
+				18704E1727AC7D1E0013E06E /* TabBarVC.swift in Sources */,
+				A8CE18CB27B57F7000ACE6BA /* EmailLoginVC.swift in Sources */,
+				18704E5D27AF06BB0013E06E /* FileCollection.swift in Sources */,
+				181D1C0527AF9ED800CCAAEE /* OTPVC.swift in Sources */,
+				18704E4B27AF009E0013E06E /* ViewTask.swift in Sources */,
+				18704E4127AEF5230013E06E /* CreateTaskVC.swift in Sources */,
+				18704E4627AEFB930013E06E /* AddressVC.swift in Sources */,
+				181D1C0F27AFA9BC00CCAAEE /* MapViewwVC.swift in Sources */,
+				18704E2F27AED2720013E06E /* ChatReceiveCell.swift in Sources */,
+				18704DFE27AC770E0013E06E /* HomeVC.swift in Sources */,
+				18704E0327AC777D0013E06E /* listViewVC.swift in Sources */,
+				18704DF927AC764B0013E06E /* SignUpVC.swift in Sources */,
+				A84B8FDE27CA5367003CDF35 /* EditProfileVC.swift in Sources */,
+				18704E3C27AEEF670013E06E /* MessageTableCell.swift in Sources */,
+				A8CE18D427B58B4400ACE6BA /* TabBarModVC.swift in Sources */,
+				18704DB127AC53BC0013E06E /* SceneDelegate.swift in Sources */,
+				181D1C0A27AFA7BE00CCAAEE /* FileViewVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18704DBD27AC53D20013E06E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18704DC627AC53D20013E06E /* GateOfTruthsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18704DC827AC53D20013E06E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18704DD127AC53D20013E06E /* GateOfTruthsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18704DC327AC53D20013E06E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18704DAA27AC53BB0013E06E /* GateOfTruths */;
+			targetProxy = 18704DC227AC53D20013E06E /* PBXContainerItemProxy */;
+		};
+		18704DCE27AC53D20013E06E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18704DAA27AC53BB0013E06E /* GateOfTruths */;
+			targetProxy = 18704DCD27AC53D20013E06E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18704DB427AC53BC0013E06E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18704DB527AC53BC0013E06E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18704DB927AC53D10013E06E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18704DBA27AC53D10013E06E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18704DD327AC53D20013E06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18704DD427AC53D20013E06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18704DD627AC53D20013E06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F4B3BB2A047E75DC984058 /* Pods-GateOfTruths.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GateOfTruths/GateOfTruths.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = A5ZWZ634JZ;
+				INFOPLIST_FILE = GateOfTruths/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GateOfTruths;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = GateOfTruth;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18704DD727AC53D20013E06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F0A3ABC9FA1FFA2EE8B301 /* Pods-GateOfTruths.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GateOfTruths/GateOfTruths.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = A5ZWZ634JZ;
+				INFOPLIST_FILE = GateOfTruths/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GateOfTruths;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = GateOfTruth;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		18704DD927AC53D20013E06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38BC34730597B8E34FAD3EAC /* Pods-GateOfTruthsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GateOfTruthsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GateOfTruthsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GateOfTruths.app/GateOfTruths";
+			};
+			name = Debug;
+		};
+		18704DDA27AC53D20013E06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA14BB9587FC785D33EA98C5 /* Pods-GateOfTruthsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GateOfTruthsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GateOfTruthsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GateOfTruths.app/GateOfTruths";
+			};
+			name = Release;
+		};
+		18704DDC27AC53D20013E06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5895BDEFE7BE616C25B046CF /* Pods-GateOfTruthsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GateOfTruthsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GateOfTruthsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GateOfTruths;
+			};
+			name = Debug;
+		};
+		18704DDD27AC53D20013E06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B14D5899F812272598C172C /* Pods-GateOfTruthsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GateOfTruthsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GateOfTruthsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GateOfTruths;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18704DA627AC53BB0013E06E /* Build configuration list for PBXProject "GateOfTruths" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18704DD327AC53D20013E06E /* Debug */,
+				18704DD427AC53D20013E06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18704DD527AC53D20013E06E /* Build configuration list for PBXNativeTarget "GateOfTruths" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18704DD627AC53D20013E06E /* Debug */,
+				18704DD727AC53D20013E06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18704DD827AC53D20013E06E /* Build configuration list for PBXNativeTarget "GateOfTruthsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18704DD927AC53D20013E06E /* Debug */,
+				18704DDA27AC53D20013E06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18704DDB27AC53D20013E06E /* Build configuration list for PBXNativeTarget "GateOfTruthsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18704DDC27AC53D20013E06E /* Debug */,
+				18704DDD27AC53D20013E06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18704DA327AC53BB0013E06E /* Project object */;
+}
